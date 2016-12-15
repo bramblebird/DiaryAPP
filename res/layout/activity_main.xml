@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"	
+    android:orientation="vertical"	>
+
+    <ListView
+        android:id="@+id/listView_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#00000000"
+        android:layout_gravity="center"
+        android:layout_weight="11"	>    
+        
+    </ListView>
+    
+    <LinearLayout	
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"	
+        android:orientation="horizontal"	>
+        
+    <Button
+        android:id="@+id/month"
+        
+        android:layout_weight="1"	
+        android:text="month"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    
+    <Button
+        android:id="@+id/year"
+        android:layout_weight="1"	
+        android:text="year"
+        android:layout_width="0dp"	
+        android:layout_height="match_parent"	/>
+    
+    <Button
+        android:layout_height="match_parent"
+        android:id="@+id/add"
+        android:layout_width="0dp"
+        android:text="add"
+        android:layout_weight="2"
+        	/>
+        
+    </LinearLayout>
+
+</LinearLayout>
